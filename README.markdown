@@ -1,3 +1,5 @@
+[![Build Status](https://amway-global.codefactori.net/jenkins/job/Demo%20-%20Game%20Of%20Life/badge/icon)](https://amway-global.codefactori.net/jenkins/job/Demo%20-%20Game%20Of%20Life/)
+
 # Demo
 
 This is a simple demonstration application used in the [Jenkins: The Definitive Guide](http://wakaleo.com/books/jenkins-the-definitive-guide) book.
