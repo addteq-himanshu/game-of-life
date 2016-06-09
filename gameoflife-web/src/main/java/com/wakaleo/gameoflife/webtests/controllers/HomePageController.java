@@ -25,6 +25,7 @@ public class HomePageController {
     // FIXME this needs to be implemented.
     @RequestMapping("/test")
     public ModelAndView test() {
+	int x;
 	return new ModelAndView("test");
     }
 }
