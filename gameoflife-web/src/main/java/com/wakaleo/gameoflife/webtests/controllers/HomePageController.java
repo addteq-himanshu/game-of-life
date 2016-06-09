@@ -22,9 +22,10 @@ public class HomePageController {
         return new ModelAndView("home");
     }
     
-    // FIXME this needs to be implemented.
+ 
     @RequestMapping("/test")
     public ModelAndView test() {
+        // FIXME this needs to be implemented.
 	int x;
 	return new ModelAndView("test");
     }
