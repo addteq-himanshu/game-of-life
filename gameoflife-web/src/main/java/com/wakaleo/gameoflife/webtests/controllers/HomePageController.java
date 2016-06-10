@@ -19,6 +19,7 @@ public class HomePageController {
 
     @RequestMapping("/home")
     public ModelAndView home() {
+	// Smell here
 	int x = 0;
 	AtomicInteger aInt1 = new AtomicInteger(0);
 	AtomicInteger aInt2 = new AtomicInteger(0);
