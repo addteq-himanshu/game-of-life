@@ -19,6 +19,12 @@ public class HomePageController {
 
     @RequestMapping("/home")
     public ModelAndView home() {
+	int x = 0;
+	AtomicInteger aInt1 = new AtomicInteger(0);
+	AtomicInteger aInt2 = new AtomicInteger(0);
+	if (aInt1.equals(aInt2)) { 
+	    x = 1;
+	} 
         return new ModelAndView("home");
     }
 }
